@@ -1,0 +1,25 @@
+{
+  "name": "Mahendra General Store - Paliganj",
+  "short_name": "Mahendra Store",
+  "description": "Paliganj ka online grocery store. Atta-dal, masala aur ghar ka saara saamaan - free home delivery.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0c831f",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
