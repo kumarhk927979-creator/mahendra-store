@@ -1,7 +1,7 @@
 {
-  "name": "Mahendra General Store - Paliganj",
+  "name": "Mahendra General Store - Patna",
   "short_name": "Mahendra Store",
-  "description": "Paliganj ka online grocery store. Atta-dal, masala aur ghar ka saara saamaan - free home delivery.",
+  "description": "Patna ka online grocery store. Atta-dal, masala aur ghar ka saara saamaan - free home delivery.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
