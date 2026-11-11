@@ -344,7 +344,7 @@ function checkout(){
   const lines=['*Naya Order - Mahendra General Store*',''];
   let n=0;
   ids.forEach(id=>{const p=PRODUCTS.find(x=>x.id===id);if(p){n++;lines.push(n+'. '+p.name+' ('+p.unit+') x '+c[id]+' = Rs '+(p.price*c[id]));}});
-  lines.push('','*Total: Rs '+cartTotal()+'*','','Naam:','Pata:','Phone:','','(Delivery: Patna me free)');
+  lines.push('','*Total: Rs '+cartTotal()+'*','','Naam:','Pata:','Phone:','','(Delivery charge alag)');
   window.location.href='https://wa.me/'+WHATSAPP+'?text='+encodeURIComponent(lines.join('\n'));
 }
 
