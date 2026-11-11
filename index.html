@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mahendra General Store, Patna | Online Grocery & Free Home Delivery</title>
-<meta name="description" content="Patna ka online grocery store. Atta-dal, masala, household aur daily needs — order karein WhatsApp par, free home delivery.">
+<title>Mahendra General Store, Patna | Online Grocery & Delivery Charges Apply</title>
+<meta name="description" content="Patna ka online grocery store. Atta-dal, masala, household aur daily needs — order karein WhatsApp par, home delivery (delivery charges apply).">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Mahendra General Store">
-<meta property="og:title" content="Mahendra General Store, Patna | Online Grocery & Free Home Delivery">
-<meta property="og:description" content="Patna ka online grocery store. Atta-dal, masala, household aur daily needs — order karein WhatsApp par, free home delivery.">
+<meta property="og:title" content="Mahendra General Store, Patna | Online Grocery & Delivery Charges Apply">
+<meta property="og:description" content="Patna ka online grocery store. Atta-dal, masala, household aur daily needs — order karein WhatsApp par, home delivery (delivery charges apply).">
 <meta property="og:url" content="https://kumarhk927979-creator.github.io/mahendra-store/">
 <meta property="og:image" content="https://kumarhk927979-creator.github.io/mahendra-store/icon-512.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -216,7 +216,7 @@ a{text-decoration:none;color:inherit}
 </style>
 </head>
 <body>
-<div class="topstrip">🚚 Patna me <b>free home delivery</b> &nbsp;•&nbsp; WhatsApp par order karein</div>
+<div class="topstrip">🚚 Patna me <b>home delivery (delivery charges apply)</b> &nbsp;•&nbsp; WhatsApp par order karein</div>
 <header class="appbar">
   <div class="container bar-top">
     <div class="loc">
@@ -236,7 +236,7 @@ a{text-decoration:none;color:inherit}
 <section class="container">
   <div class="banner">
     <div>
-      <h2>🚚 Patna me free home delivery</h2>
+      <h2>🚚 Patna me home delivery (delivery charges apply)</h2>
       <p>Roz ka saamaan, ghar par — WhatsApp par 1 minute me order karein.</p>
     </div>
     <a class="btn btn-wa" href="https://wa.me/919942849146?text=Namaste!%20Mujhe%20grocery%20order%20karna%20hai." target="_blank">📲 Order on WhatsApp</a>
@@ -278,7 +278,7 @@ a{text-decoration:none;color:inherit}
   <div class="drawer-head"><h3>🛍️ Aapka Cart</h3><button class="close" onclick="closeCart()" aria-label="Close">✕</button></div>
   <div class="drawer-body" id="cartBody"></div>
   <div class="drawer-foot" id="cartFoot" style="display:none">
-    <div class="delivery-note">🚚 Patna me <b>free home delivery</b></div>
+    <div class="delivery-note">🚚 Patna me <b>home delivery (delivery charges apply)</b></div>
     <div class="total-row"><span>Items</span><span id="cartItems">0</span></div>
     <div class="total-row grand"><span>Total</span><span id="cartTotal">₹0</span></div>
     <button class="btn btn-wa" onclick="checkout()">📲 WhatsApp par order karein</button>
@@ -298,7 +298,7 @@ a{text-decoration:none;color:inherit}
           <span style="width:40px;height:40px;border-radius:11px;background:var(--green);display:grid;place-items:center;font-size:1.3rem">🛒</span>
           <span><strong style="color:#fff;display:block">Mahendra General Store</strong><small style="color:#8fb3a0">Patna</small></span>
         </div>
-        <p>Patna ka apna online grocery store — atta-dal, masala, household aur ghar ka saara saamaan. Free home delivery.</p>
+        <p>Patna ka apna online grocery store — atta-dal, masala, household aur ghar ka saara saamaan. Home delivery (delivery charges apply).</p>
       </div>
       <div><h4>Shop</h4><ul>
         <li><a href="index.html">Home</a></li><li><a href="products.html">All Products</a></li>
@@ -315,7 +315,7 @@ a{text-decoration:none;color:inherit}
     </div>
     <div class="footer-bottom">
       <span>© 2026 Mahendra General Store, Patna. All rights reserved.</span>
-      <span>Free home delivery in Patna 🚚</span>
+      <span>Home delivery (delivery charges apply) in Patna 🚚</span>
     </div>
     <div style="font-size:.74rem;color:#7ea28d;margin-top:12px">Product photos: Wikimedia Commons contributors (CC licences). Prices are indicative — final rate dukaan par confirm hota hai.</div>
   </div>
@@ -370,7 +370,7 @@ function checkout(){
   const lines=['*Naya Order - Mahendra General Store*',''];
   let n=0;
   ids.forEach(id=>{const p=PRODUCTS.find(x=>x.id===id);if(p){n++;lines.push(n+'. '+p.name+' ('+p.unit+') x '+c[id]+' = Rs '+(p.price*c[id]));}});
-  lines.push('','*Total: Rs '+cartTotal()+'*','','Naam:','Pata:','Phone:','','(Delivery: Patna me free)');
+  lines.push('','*Total: Rs '+cartTotal()+'*','','Naam:','Pata:','Phone:','','(Delivery charge alag)');
   window.location.href='https://wa.me/'+WHATSAPP+'?text='+encodeURIComponent(lines.join('\n'));
 }
 
