@@ -1,7 +1,7 @@
 {
   "name": "Mahendra General Store - Patna",
   "short_name": "Mahendra Store",
-  "description": "Patna ka online grocery store. Atta-dal, masala aur ghar ka saara saamaan - home delivery (delivery charges apply).",
+  "description": "Patna ka online grocery store. Atta-dal, masala aur ghar ka saara saamaan - home delivery (delivery charge jagah ke hisaab se).",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
