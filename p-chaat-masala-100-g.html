@@ -213,6 +213,13 @@ a{text-decoration:none;color:inherit}
   .grid{grid-template-columns:repeat(2,1fr)}
   .footer-grid{grid-template-columns:1fr}
 }
+
+.mainnav{background:#fff;border-bottom:1px solid #e8efe9}
+.mainnav .container{display:flex;gap:7px;overflow-x:auto;padding:9px 0;scrollbar-width:none}
+.mainnav .container::-webkit-scrollbar{display:none}
+.mainnav a{white-space:nowrap;font-size:.84rem;font-weight:500;color:#3a4a40;padding:7px 14px;border-radius:999px;border:1px solid #e8efe9;background:#f7fbf8;text-decoration:none}
+.mainnav a:hover{background:#eaf6ee;border-color:#bfe0c9}
+.mainnav a.on{background:#0c831f;color:#fff;border-color:#0c831f}
 </style>
 </head>
 <body>
@@ -229,6 +236,7 @@ a{text-decoration:none;color:inherit}
     <div class="search"><span class="ic">🔍</span><input type="text" id="topSearch" placeholder="Search for atta, dal, tel, masala..."></div>
   </div>
 </header>
+<nav class="mainnav"><div class="container"><a href="index.html">Home</a><a href="products.html">Products</a><a href="grocery-home-delivery-patna.html">Home Delivery</a><a href="kirana-store-patna.html">Kirana Store</a><a href="about.html">About</a><a href="contact.html">Contact</a></div></nav>
 <div id="installBar" class="install-bar">📲 <span>Is store ko phone me <b>app</b> ki tarah install karein.</span><button class="btn btn-green" onclick="installApp()">Install App</button></div><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Chaat Masala", "sku": "m06", "category": "Masala & Spices", "description": "Chaat Masala 100 g available at Mahendra General Store, Patna.", "image": "https://kumarhk927979-creator.github.io/mahendra-store/icon-512.png", "offers": {"@type": "Offer", "price": "55", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://kumarhk927979-creator.github.io/mahendra-store/p-chaat-masala-100-g.html", "seller": {"@type": "Organization", "name": "Mahendra General Store"}}}</script>
 <section class="container">
   <div class="crumb"><a href="index.html">Home</a> &rsaquo; <a href="products.html">Products</a> &rsaquo; <span>Chaat Masala</span></div>
