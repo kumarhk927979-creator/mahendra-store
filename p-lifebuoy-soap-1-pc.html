@@ -220,16 +220,19 @@ a{text-decoration:none;color:inherit}
 .mainnav a{white-space:nowrap;font-size:.84rem;font-weight:500;color:#3a4a40;padding:7px 14px;border-radius:999px;border:1px solid #e8efe9;background:#f7fbf8;text-decoration:none}
 .mainnav a:hover{background:#eaf6ee;border-color:#bfe0c9}
 .mainnav a.on{background:#0c831f;color:#fff;border-color:#0c831f}
+
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
+.brand-logo{width:44px;height:44px;border-radius:50%;background:#0c831f;color:#fff;display:grid;place-items:center;font-weight:700;font-size:1.15rem;flex:0 0 44px}
+.brand-txt b{display:block;font-size:1.02rem;line-height:1.15;color:#14231b}
+.brand-txt small{color:#6b7a72;font-size:.72rem}
+.tabbar{display:none !important}
 </style>
 </head>
 <body>
 <div class="topstrip">🚚 Patna me <b>home delivery (delivery charge jagah ke hisaab se)</b> &nbsp;•&nbsp; WhatsApp par order karein</div>
 <header class="appbar">
   <div class="container bar-top">
-    <div class="loc">
-      <span class="loc-ic">📍</span>
-      <div><small>Deliver to</small><b>Patna, Bihar <span class="caret">▾</span></b></div>
-    </div>
+    <a class="brand" href="index.html"><span class="brand-logo">M</span><span class="brand-txt"><b>Mahendra General Store</b><small>Patna, Bihar</small></span></a>
     <button class="cart-btn" onclick="openCart()">🛍️ Cart <span class="badge js-cartcount">0</span></button>
   </div>
   <div class="container bar-search">
