@@ -388,7 +388,7 @@ function checkout(){
 /* ---- home ---- */
 function renderCats(){
   const el=document.getElementById('catstrip');if(!el)return;
-  el.innerHTML=CATS.map(c=>'<a class="catcircle" href="products.html?cat='+encodeURIComponent(c[0])+'"><div class="c">'+c[1]+'</div><span>'+c[0]+'</span></a>').join('');
+  var M={"Atta, Rice & Flour": "c-atta-rice-flour.html", "Dal & Pulses": "c-dal-pulses.html", "Oil": "c-oil.html", "Masala & Spices": "c-masala-spices.html", "Health Drinks": "c-health-drinks.html", "Dry Fruits & Nuts": "c-dry-fruits-nuts.html", "Household & Cleaning": "c-household-cleaning.html", "Personal Care": "c-personal-care.html", "Baby Care": "c-baby-care.html", "Pooja & Daily Needs": "c-pooja-daily-needs.html"};el.innerHTML=CATS.map(function(c){return '<a class="catcircle" href="'+(M[c[0]]||'products.html')+'"><div class="c">'+c[1]+'</div><span>'+c[0]+'</span></a>'}).join('');
 }
 function renderBest(){
   const el=document.getElementById('bestRow');if(!el)return;
